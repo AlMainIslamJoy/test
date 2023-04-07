@@ -1,0 +1,48 @@
+.animation{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+    margin: 200px;
+    font-size: 30px;
+    
+    animation: web-disign 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    -webkit-animation: web-disign 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@keyframes web-disign{
+    from{
+        background-color: chartreuse;
+    }
+    to{
+        background-color: blue;
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@-webkit-keyframes web-disign{
+    from{
+        background-color: chartreuse;
+    }
+    to{
+        background-color: blue;
+        width: 400px;
+        height: 600px;
+    }
+}
+
+-ms-@keyframes web-disign{
+    from{
+        background-color: chartreuse;
+    }
+    to{
+        background-color: blue;
+        width: 400px;
+        height: 600px;
+    }
+}
